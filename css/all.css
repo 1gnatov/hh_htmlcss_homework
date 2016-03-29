@@ -1,0 +1,444 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  color: #212121;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+a {
+  color: #212121;
+}
+a:hover {
+  color: #212121;
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: bold;
+  src: url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+}
+.banner {
+  background: url(../img/background.jpg) 0 50% / cover no-repeat;
+  height: 100%;
+}
+.banner__container {
+  position: relative;
+  height: 100%;
+}
+.banner__menu {
+  margin-top: 50px;
+}
+.banner__content {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  left: 0;
+  margin: 0;
+}
+.nav {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.nav__logo {
+  font-weight: bold;
+}
+.nav__list {
+  list-style: none;
+}
+.nav__list_right {
+  float: right;
+}
+.nav__item {
+  display: inline-block;
+}
+.nav__link {
+  font-weight: bold;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.nav__link_right {
+  margin-right: -10px;
+}
+.promo {
+  text-align: right;
+}
+.title {
+  font-size: 78px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0 0 50px;
+}
+.title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  width: 25%;
+  border: 3px solid #212121;
+}
+.title_level-2 {
+  font-size: 27px;
+  text-transform: none;
+  letter-spacing: 2px;
+}
+.title_level-2:after {
+  display: none;
+}
+.title_level-3 {
+  font-size: 18px;
+  text-transform: none;
+  margin-bottom: 25px;
+}
+.title_level-3:after {
+  display: none;
+}
+.title_footer_level-2 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 77px;
+}
+.title_footer_level-3 {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 77px;
+  margin-bottom: 38px;
+}
+.text {
+  font-size: 18px;
+  line-height: 1.75;
+  margin-bottom: 50px;
+  letter-spacing: 0.025em;
+}
+.text_level-2 {
+  font-size: 16px;
+  line-height: 2;
+}
+.text_level-3 {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.text_quote {
+  font-size: 20px;
+  line-height: 2;
+}
+.text_italic {
+  font-style: italic;
+}
+.text_footer {
+  margin-top: 37px;
+  color: #999999;
+}
+.button {
+  display: inline-block;
+  padding: 10px 80px;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #212121;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:hover,
+.button:active,
+.button:focus {
+  color: #fff;
+  border-color: #fff;
+  text-decoration: none;
+}
+.intro {
+  text-align: center;
+  margin: 70px 0;
+}
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/sprite.png) no-repeat;
+  margin-bottom: 20px;
+}
+.icon_broccoli {
+  background-position: 0 0;
+}
+.icon_clock {
+  background-position: 0 -42px;
+}
+.icon_vector {
+  background-position: 0 -82px;
+}
+.icon_land-working {
+  width: 47px;
+  background-position: 0 -122px;
+}
+.icon_quotes {
+  display: inline-block;
+  background: url(../img/icon-quote.png);
+  width: 17px;
+  height: 16px;
+}
+.icon_tweet {
+  display: inline-block;
+  background: url(../img/icon-tweet.png);
+  width: 27px;
+  height: 22px;
+}
+.substrate_grey {
+  background-color: #efefef;
+}
+.substrate-black {
+  background-color: #212121;
+  color: #eeeeee;
+}
+.features {
+  margin: 75px 0 50px;
+}
+.features__item {
+  margin: 0 50px;
+}
+.facts_and_numbers {
+  background: url(../img/factsnumbers.png) 0 50% / cover no-repeat;
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 100%;
+  color: #eeeeee;
+}
+.facts_and_numbers .intro:after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 75px;
+  border: 3px solid #e64a19;
+}
+.facts_and_numbers-opacity {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.facts_and_numbers__row-opacity {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.facts_and_numbers__counter {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-top: 60px;
+}
+.facts_and_numbers__counter:after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 75px;
+  border: 3px solid #4d4c4b;
+}
+.facts_and_numbers__fact_text {
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 60px;
+}
+.clients-section {
+  padding-bottom: 110px;
+}
+.feature_article_allcontainer {
+  margin-bottom: 141px;
+}
+.feature_article {
+  background-color: #222222;
+  color: #eeeeee;
+  -webkit-box-shadow: inset -20px 0 white;
+  box-shadow: inset -20px 0 white;
+  margin-bottom: 20px;
+}
+.feature_article__inner_container {
+  padding-left: 40px;
+}
+.feature_article__inner_container h4 {
+  padding-top: 69px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.feature_article__inner_container__phrase {
+  padding-top: 35px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  display: block;
+  height: 100px;
+}
+.personal_card {
+  margin-top: 92px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+}
+.personal_card:after {
+  -webkit-box-shadow: 15px 0 15px -15px white;
+          box-shadow: 15px 0 15px -15px white;
+  content: " ";
+  height: 100%;
+  position: absolute;
+  right: -15px;
+  width: 15px;
+}
+.personal_card__info {
+  margin-left: 15px;
+  margin-top: 13px;
+}
+.personal_card__info p {
+  margin-bottom: 0px;
+}
+.portfolio p:after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  width: 75px;
+  border: 3px solid #e64a19;
+}
+.portfolio__painting-nav {
+  width: 40%;
+  margin: auto;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.portfolio__painting-nav a {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.slider__gallery {
+  font-size: 0px;
+  margin: auto;
+  width: 1500px;
+}
+.slider__gallery img {
+  display: inline-block;
+}
+.slider__checkers {
+  margin: auto;
+  margin-top: 66px;
+  margin-bottom: 80px;
+  width: 75px;
+}
+.quotes {
+  font-size: 20px;
+}
+.quotes > .text-italic {
+  padding-bottom: 66px;
+}
+.news img {
+  margin-bottom: 40px;
+}
+.news__info {
+  padding-left: 106px;
+  padding-right: 106px;
+}
+.news__photo:after {
+  content: '';
+}
+.news__info__date {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  letter-spacing: 1px;
+  margin-top: 83px;
+  margin-top: 0px;
+}
+@media (min-width: 1200px) {
+  .news__info__date {
+    margin-top: 83px;
+  }
+}
+.news__info__text {
+  margin-bottom: 20%;
+}
+.news-slider .news-slider__news_element {
+  text-align: left;
+}
+.news-slider__news_element__news_title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.news-slider__news_element__news_title:before {
+  content: " ";
+  display: block;
+  background-color: #212121;
+  width: 6px;
+  height: 73px;
+  float: left;
+  margin-right: 20px;
+  margin-top: -8px;
+}
+.members {
+  margin-top: 55px;
+}
+.members__name {
+  margin-top: 56px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+}
+.footer {
+  color: #999999;
+}
+.footer__form .footer__form-text {
+  margin-left: -15px;
+}
+.footer__form-text {
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.footer__form-text:after {
+  content: '';
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  border: 1px solid #4d4c4b;
+}
+.footer__form-text:hover {
+  color: white;
+  text-decoration: none;
+}
+.footer__nav-column__links {
+  color: #999999;
+  display: block;
+}
+.footer__nav-column__links:hover {
+  color: white;
+  text-decoration: none;
+}
+.footer__nav-right-side {
+  margin-left: 55px;
+}
+.footer__nav-right-side a {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.tweet-message img {
+  margin-top: 40px;
+}
+.tweet-message .text_quote {
+  margin-top: 43px;
+  margin-bottom: 35px;
+}
+.tweet-message .tweet-message__tag {
+  font-size: 16px;
+  font-weight: 700;
+}
