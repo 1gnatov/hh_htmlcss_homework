@@ -188,13 +188,23 @@
                         </div>
                     </section>
                 </div>
-                <div class="portfolio__painting-nav">
-                    <a class="portfolio__painting-nav_links" href="#">Art</a>
-                    <a class="portfolio__painting-nav_links" href="#">Mystery</a>
-                    <a class="portfolio__painting-nav_links" href="#">Illusion</a>
-                    <a class="portfolio__painting-nav_links" href="#">Travel</a>
-                    <a class="portfolio__painting-nav_links" href="#">Paintings</a>
-                </div>
+                <ul class="portfolio__painting-nav">
+                    <li class="portfolio__painting-nav_link">
+                        <a href="#">Art</a>
+                    </li>
+                    <li class="portfolio__painting-nav_link">
+                        <a href="#">Mystery</a>
+                    </li>
+                    <li class="portfolio__painting-nav_link">
+                        <a href="#">Illusion</a>
+                    </li>
+                    <li class="portfolio__painting-nav_link">
+                        <a href="#">Travel</a>
+                    </li>
+                    <li class="portfolio__painting-nav_link">
+                        <a href="#">Paintings</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="slider">
@@ -368,51 +378,97 @@
                     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
                         <p class="title_footer-level-2">Unicorn</p>
                         <p class="text_footer">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his</p>
-                        <div class="footer__form">
+                        <form class="footer__form">
                             <div class="col-lg-6">
-                                <p class="footer__form-text">Email</p>
+                                <input class="footer__form-text" type="email" id="email" placeholder="EMAIL" name="email" />
                             </div>
                             <div class="col-lg-6">
-                                <p class="footer__form-text">Subject</p>
+                                <input class="footer__form-text" type="email" id="subject" placeholder="SUBJECT" name="subject" />
                             </div>
                             <div class="col-lg-12">
-                                <p class="footer__form-text">Message</p>
+                                <input class="footer__form-text" type="email" id="message" placeholder="MESSAGE" name="message" />
                             </div>
                             <div class="col-lg-12 col-md-12">
-                                <p class="footer__form-text">Send</p>
+                                <input class="footer__form-text footer__form-submit" type="submit" value="SEND"/>
                             </div>
-                        </div>
+                        </form>
                     </div>
                     <div class="col-lg-6 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 footer__nav-column">
+                        <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4 footer__nav-column">
                             <p class="title_footer-level-3">Links</p>
-                            <a href="#" class="footer__nav-column_links">Home</a>
-                            <a href="#" class="footer__nav-column_links">About</a>
-                            <a href="#" class="footer__nav-column_links">Services</a>
-                            <a href="#" class="footer__nav-column_links">Menu</a>
-                            <a href="#" class="footer__nav-column_links">Restaurants</a>
-                            <a href="#" class="footer__nav-column_links">Work Hours</a>
-                            <a href="#" class="footer__nav-column_links"> Call Hours</a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <ul class="footer__nav-column_list">
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">About</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Menu</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Restaurants</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Work Hours</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Call Hours</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <p class="title_footer-level-3">Friends</p>
-                            <a href="#" class="footer__nav-column_links">Home</a>
-                            <a href="#" class="footer__nav-column_links">About</a>
-                            <a href="#" class="footer__nav-column_links">Services</a>
-                            <a href="#" class="footer__nav-column_links">Menu</a>
-                            <a href="#" class="footer__nav-column_links">Restaurants</a>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <ul class="footer__nav-column_list">
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">About</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Menu</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Restaurants</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                             <p class="title_footer-level-3">Social</p>
-                            <a href="#" class="footer__nav-column_links">Facebook</a>
-                            <a href="#" class="footer__nav-column_links">Twitter</a>
-                            <a href="#" class="footer__nav-column_links">Github</a>
-                            <a href="#" class="footer__nav-column_links">Pinterest</a>
-                            <a href="#" class="footer__nav-column_links">Google Plus</a>
-                            <a href="#" class="footer__nav-column_links">Dribbble</a>
-                            <a href="#" class="footer__nav-column_links">Flickr</a>
-                            <a href="#" class="footer__nav-column_links">Others</a>
-                        </div>
+                            <ul class="footer__nav-column_list">
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Facebook</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Twitter</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Github</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Pinterest</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Google Plus</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Dribbble</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Flickr</a>
+                                </li>
+                                <li>
+                                    <a class="footer__nav-column_links" href="#">Others</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
                 <div class="row">
@@ -422,12 +478,22 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 col-sm-offset-5">
-                        <div class="footer__nav-right-side">
-                            <a href="#" class="footer__nav-right-side_links">Terms</a>
-                            <a href="#" class="footer__nav-right-side_links">Privacy Policy</a>
-                            <a href="#" class="footer__nav-right-side_links">Contact</a>
-                            <a href="#" class="footer__nav-right-side_links">Job</a>
-                        </div>
+                        <nav class="footer__nav-right-side">
+                            <ul class="footer__nav-column_list">
+                                <li class="footer__nav-right-side_link-container">
+                                    <a class="footer__nav-right-side_link" href="#">Terms</a>
+                                </li>
+                                <li class="footer__nav-right-side_link-container">
+                                    <a class="footer__nav-right-side_link" href="#">Privacy Policy</a>
+                                </li>
+                                <li class="footer__nav-right-side_link-container">
+                                    <a class="footer__nav-right-side_link" href="#">Contact</a>
+                                </li>
+                                <li class="footer__nav-right-side_link-container">
+                                    <a class="footer__nav-right-side_link" href="#">Job</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>

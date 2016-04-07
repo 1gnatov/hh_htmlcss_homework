@@ -9,11 +9,9 @@
     font-size: 14px;
     font-family: 'Source Sans Pro';
     letter-spacing: 1px;
-    margin-top: 80px;
-    
     margin-top: 0px;
-    @media (min-width: @screen-lg-min) {
-        margin-top: 83px;
+    @media (max-width: @screen-lg-min) {
+        margin-top: 15px;
     }
 }
 
@@ -29,6 +27,7 @@
 
 .news-slider__news {    
         text-align: left;
+        margin-bottom: 20px;
         &:before {
             content: ' ';
             display: block;
