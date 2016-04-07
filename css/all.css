@@ -72,6 +72,11 @@ a:hover {
   position: relative;
   margin: 0 0 50px;
 }
+@media (max-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
+}
 .title:after {
   content: '';
   display: block;
@@ -383,6 +388,11 @@ a:hover {
 .news-photo__image {
   max-width: 555px;
   margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .news-photo__image {
+    width: 90%;
+  }
 }
 .news-slider__news {
   text-align: left;
