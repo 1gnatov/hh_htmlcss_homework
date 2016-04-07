@@ -170,7 +170,7 @@
                             <div class="clients-section">
                                 <h2 class="title title_level-2">Clients</h2>
                                 <div class="clients-section__clients-logos">
-                                    <img src="images/clientLogos.png" />
+                                    <img class="clients-section__clients-logos_images" src="images/clientLogos.png" />
                                 </div>
                             </div>
                         </div>
@@ -214,9 +214,13 @@
                 <img class="slider__gallery_image" src="images/gallery3.png" />
                 <img class="slider__gallery_image" src="images/gallery4.png" />
             </div>
-            <div class="slider__checkers">
-                <img src="images/slider_checkers.png" />
-            </div>
+            <ul class="slider__checkers">
+                <li class="slider__checkers-point"></li>
+                <li class="slider__checkers-point"></li>
+                <li class="slider__checkers-point_active"></li>
+                <li class="slider__checkers-point"></li>
+            </ul>
+            
         </div>
         <div class="substrate substrate_black">
             <div class="container">
@@ -340,15 +344,15 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 news-slider__news">
                             <p class="news-slider__news_title">Another Day In Paradise</p>
-                            <p class="news-info__date">Travel / 21st March, 2014</p>
+                            <p class="news-info__date_slider">Travel / 21st March, 2014</p>
                         </div>
                         <div class="col-lg-4  col-md-6 news-slider__news">
                             <p class="news-slider__news_title">Jimmy&#8217;s New Book on Aliens</p>
-                            <p class="news-info__date">Personal / 21st March, 2014</p>
+                            <p class="news-info__date_slider">Personal / 21st March, 2014</p>
                         </div>
                         <div class="col-lg-4  col-md-6 news-slider__news">
                             <p class="news-slider__news_title">Sarah&#8217;s New House</p>
-                            <p class="news-info__date">Personal / 21st March, 2014</p>
+                            <p class="news-info__date_slider">Personal / 21st March, 2014</p>
                         </div>
                     </div>
                 </section>
@@ -389,7 +393,7 @@
                                 <input class="footer__form-text" type="email" id="message" placeholder="MESSAGE" name="message" />
                             </div>
                             <div class="col-lg-12 col-md-12">
-                                <input class="footer__form-text footer__form-submit" type="submit" value="SEND"/>
+                                <input class="footer__form-text footer__form-submit" type="submit" value="SEND" />
                             </div>
                         </form>
                     </div>

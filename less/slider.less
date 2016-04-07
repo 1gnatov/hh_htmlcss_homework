@@ -17,9 +17,33 @@
 
 .slider__checkers {
     
+    list-style-type: none;
     margin: auto;
     margin-top: 65px;
     margin-bottom: 80px;
-    width: 75px;
+    width: 150px;
 
+}
+
+.slider__checkers-point {
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    border: 6px solid #ccc;
+    border-radius: 20px;
+    margin-right: 5px;
+
+    &:hover {
+        cursor:pointer;
+    }
+    
+}
+
+.slider__checkers-point_active {
+        display: inline-block;
+        width: 1px;
+        height: 1px;
+        border: 6px solid #FA581A;
+        border-radius: 20px;
+        margin-right: 5px;
 }
