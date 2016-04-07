@@ -1,16 +1,24 @@
 .slider__gallery {
-    font-size: 0px;
-    margin: auto;
-    width: 1500px;
-    img {
-        display: inline-block;
+    font-size: 0;
+    margin-left: 10%;
+    @media (max-width: @screen-lg-min) {
+            margin: auto;
     }
 }
+
+.slider__gallery_image {
+    display: inline-block;
+    @media (max-width: @screen-lg-min) {
+        display: block;
+        margin: auto;
+    }
+}
+
 
 .slider__checkers {
     
     margin: auto;
-    margin-top: 66px;
+    margin-top: 65px;
     margin-bottom: 80px;
     width: 75px;
 
