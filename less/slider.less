@@ -6,11 +6,17 @@
     }
 }
 
-.slider__gallery_image {
+.slider__gallery-image {
     display: inline-block;
     @media (max-width: @screen-lg-min) {
+        width: 90%;
         display: block;
         margin: auto;
+    }
+    &_cutted {
+        @media (max-width: @screen-lg-min) {
+            display: none;
+        }
     }
 }
 

@@ -310,13 +310,19 @@ a:hover {
     margin: auto;
   }
 }
-.slider__gallery_image {
+.slider__gallery-image {
   display: inline-block;
 }
 @media (max-width: 1200px) {
-  .slider__gallery_image {
+  .slider__gallery-image {
+    width: 90%;
     display: block;
     margin: auto;
+  }
+}
+@media (max-width: 1200px) {
+  .slider__gallery-image_cutted {
+    display: none;
   }
 }
 .slider__checkers {
