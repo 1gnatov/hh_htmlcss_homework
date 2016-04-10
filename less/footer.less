@@ -3,14 +3,19 @@
 }
 
 
+
 .footer__form-text {
     margin-left: -15px;
-    color: #999999;
+    color: #999;
     background-color: #212121;
     border: none;
     width: 100%;
     border-bottom: 2px solid  #4d4c4b;
     margin-bottom: 15px;
+
+    &::placeholder {
+        text-transform: uppercase;
+    }
     
     &:after {
         content: '';
@@ -27,12 +32,28 @@
     }
 }
 .footer__form-submit {
+    margin-left: -15px;
+    color: #999;
+    background-color: #212121;
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid  #4d4c4b;
+    margin-bottom: 15px;
     padding: 0;
     text-align: left;
+    text-transform: uppercase;
+
 
     &:hover {
         border-bottom: 2px solid #fff;
     }
+}
+
+.footer__nav-column_title {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .footer__nav-column_list {
@@ -67,4 +88,8 @@
         color: #fff;
         text-decoration: none;
     }
+}
+.footer_bottom-text {
+    margin-top: 40px;
+    color:#999;
 }

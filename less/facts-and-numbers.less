@@ -1,9 +1,17 @@
 .facts-and-numbers {
-    background: url(../img/factsnumbers.png) 0 50%/cover no-repeat;
-    background-color: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.35) url(../img/factsnumbers.png) 0 50%/cover no-repeat;
     height: 100%;
-    color: #eeeeee;
+    color: #eee;
 }
+
+.facts-and-numbers_substrate {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.facts-and-numbers_substrate-light {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 .facts-and-numbers__minislider {
     &:after {
             content: '';
@@ -14,15 +22,6 @@
     }
 }
    
-.facts-and-numbers__substrate {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.facts-and-numbers__substrate-light {
-    background-color: rgba(255, 255, 255, 0.4);
-    
-}
-
 .facts-and-numbers__counter {
     font-size: 27px;
     font-weight: 700;
@@ -37,7 +36,7 @@
         border: 3px solid #4d4c4b;
     }
 }
-.facts-and-numbers__fact-text {
+.facts-and-numbers__text {
     font-size: 24px;
     padding-bottom: 60px;
     
