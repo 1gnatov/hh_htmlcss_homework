@@ -102,12 +102,6 @@ a:hover {
 .title_level-3:after {
   display: none;
 }
-.title_footer-level-2 {
-  font-size: 22px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 80px;
-}
 .text {
   font-size: 18px;
   line-height: 1.75;
@@ -443,10 +437,19 @@ a:hover {
 .footer {
   color: #999;
 }
-.footer__form {
+.footer__title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+.footer__text {
+  color: #999;
+}
+.footer-form {
   margin-top: 30px;
 }
-.footer__form-text {
+.footer-form__text {
   margin-left: -15px;
   color: #999;
   background-color: #212121;
@@ -455,32 +458,44 @@ a:hover {
   border-bottom: 2px solid  #4d4c4b;
   margin-bottom: 15px;
 }
-.footer__form-text::-webkit-input-placeholder {
+.footer-form__text::-webkit-input-placeholder {
   text-transform: uppercase;
 }
-.footer__form-text::-moz-placeholder {
+.footer-form__text::-moz-placeholder {
   text-transform: uppercase;
 }
-.footer__form-text:-ms-input-placeholder {
+.footer-form__text:-ms-input-placeholder {
   text-transform: uppercase;
 }
-.footer__form-text::placeholder {
+.footer-form__text::placeholder {
   text-transform: uppercase;
 }
-.footer__form-text:after {
+.footer-form__text:hover::-webkit-input-placeholder {
+  color: white;
+  text-decoration: none;
+}
+.footer-form__text:hover::-moz-placeholder {
+  color: white;
+  text-decoration: none;
+}
+.footer-form__text:hover:-ms-input-placeholder {
+  color: white;
+  text-decoration: none;
+}
+.footer-form__text:hover::placeholder {
+  color: white;
+  text-decoration: none;
+}
+.footer-form__text:after {
   content: '';
   display: block;
   width: 100%;
 }
-.footer__form-text:hover {
-  color: white;
-  text-decoration: none;
-}
-.footer__form-text:focus {
+.footer-form__text:focus {
   border-bottom: 2px solid #fff;
   outline: none;
 }
-.footer__form-submit {
+.footer-form__submit {
   margin-left: -15px;
   color: #999;
   background-color: #212121;
@@ -492,47 +507,51 @@ a:hover {
   text-align: left;
   text-transform: uppercase;
 }
-.footer__form-submit:hover {
+.footer-form__submit:hover {
   border-bottom: 2px solid #fff;
+  color: white;
 }
-.footer__nav-column_title {
+.footer-link {
+  color: #999;
+}
+.footer-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-link_block {
+  color: #999;
+  display: block;
+}
+.footer-link_block:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-about {
+  margin-top: 40px;
+  color: #999;
+}
+.footer-list_right-side {
+  margin-left: 0px;
+}
+.footer-list__title {
   font-size: 15px;
   text-transform: uppercase;
   margin-top: 80px;
   margin-bottom: 40px;
 }
-.footer__nav-column_list,
-.footer__nav-right-side_list {
+.footer-list__container {
   padding: 0;
   color: #999;
   list-style-type: none;
 }
-.footer__nav-column_links {
-  color: #999;
-  display: block;
+.footer-list__container_right-side {
+  display: inline-block;
+  text-transform: uppercase;
 }
-.footer__nav-column_links:hover {
-  color: #fff;
-  text-decoration: none;
-}
-.footer__nav-right-side {
-  margin-left: 55px;
-}
-.footer__nav-right-side_link-container {
+.footer-list__element_right-side {
   display: inline-block;
   text-transform: uppercase;
   margin: 50px 0 50px 20px;
-}
-.footer__nav-right-side_link {
-  color: #999;
-}
-.footer__nav-right-side_link:hover {
-  color: #fff;
-  text-decoration: none;
-}
-.footer_bottom-text {
-  margin-top: 40px;
-  color: #999;
 }
 .tweet-message .tweet-message__image {
   margin-top: 40px;
