@@ -195,10 +195,10 @@ a:hover {
   height: 100%;
   color: #eee;
 }
-.facts-and-numbers_substrate {
+.facts-and-numbers__substrate {
   background-color: rgba(0, 0, 0, 0.6);
 }
-.facts-and-numbers_substrate-light {
+.facts-and-numbers__substrate-light {
   background-color: rgba(255, 255, 255, 0.4);
 }
 .facts-and-numbers__minislider:after {
@@ -230,8 +230,8 @@ a:hover {
 }
 .clients-section__images {
   display: inline-block;
-  width: 102px;
-  height: 102px;
+  width: 100px;
+  height: 100px;
   background: url(../images/clientLogos.png) no-repeat;
   margin-left: 30px;
 }
@@ -294,7 +294,7 @@ a:hover {
 .personal-card__text {
   margin-bottom: 0;
 }
-.portfolio__painting-nav {
+.portfolio {
   width: 40%;
   margin: auto;
   padding-left: 20px;
@@ -362,13 +362,8 @@ a:hover {
 .slider-checkers__point:hover {
   cursor: pointer;
 }
-.slider-checkers__active-point {
-  display: inline-block;
-  width: 1px;
-  height: 1px;
+.slider-checkers__point_active {
   border: 6px solid #FA581A;
-  border-radius: 20px;
-  margin-right: 5px;
 }
 .quotes {
   font-size: 20px;
@@ -408,11 +403,11 @@ a:hover {
     width: 90%;
   }
 }
-.news-slider__news {
+.news-slider {
   text-align: left;
   margin-bottom: 20px;
 }
-.news-slider__news:before {
+.news-slider:before {
   content: ' ';
   display: block;
   background-color: #212121;
@@ -421,6 +416,18 @@ a:hover {
   float: left;
   margin-right: 20px;
   margin-top: -8px;
+}
+.news-slider__date {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+@media (max-width: 1200px) {
+  .news-slider__date {
+    margin-top: 15px;
+  }
 }
 .news-slider__title {
   font-size: 18px;
@@ -519,12 +526,7 @@ a:hover {
   text-decoration: none;
 }
 .footer-link_block {
-  color: #999;
   display: block;
-}
-.footer-link_block:hover {
-  color: #fff;
-  text-decoration: none;
 }
 .footer-about {
   margin-top: 40px;
@@ -548,7 +550,7 @@ a:hover {
   display: inline-block;
   text-transform: uppercase;
 }
-.footer-list__element_right-side {
+.footer-list__element {
   display: inline-block;
   text-transform: uppercase;
   margin: 50px 0 50px 20px;
@@ -557,7 +559,7 @@ a:hover {
   margin-top: 40px;
 }
 .tweet-message .tweet-message__quote {
-  margin-top: 43px;
+  margin-top: 40px;
   margin-bottom: 35px;
 }
 .tweet-message .tweet-message__tag {
