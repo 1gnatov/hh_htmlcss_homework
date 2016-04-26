@@ -1,5 +1,4 @@
 @import "variables";
-
 .title {
     font-size: 78px;
     font-weight: bold;
@@ -7,9 +6,8 @@
     position: relative;
     margin: 0 0 50px;
     @media (max-width: @screen-sm-min) {
-       font-size: 50px;
+        font-size: 50px;
     }
-
     &:after {
         content: '';
         display: block;
@@ -19,27 +17,20 @@
         width: 25%;
         border: 3px solid @color-text;
     }
-
     &_level-2 {
         font-size: 27px;
         text-transform: none;
         letter-spacing: 2px;
-
     }
-
-        &_level-2:after {
-            display: none;
-        }
-
+    &_level-2:after {
+        display: none;
+    }
     &_level-3 {
         font-size: 18px;
         text-transform: none;
         margin-bottom: 25px;
-
     }
-
-        &_level-3:after {
-            display: none;
-        }
-        
+    &_level-3:after {
+        display: none;
+    }
 }
