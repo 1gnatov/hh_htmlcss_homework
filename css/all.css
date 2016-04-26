@@ -198,7 +198,7 @@ a:hover {
 .facts-and-numbers__substrate {
   background-color: rgba(0, 0, 0, 0.6);
 }
-.facts-and-numbers__substrate-light {
+.facts-and-numbers__substrate_light {
   background-color: rgba(255, 255, 255, 0.4);
 }
 .facts-and-numbers__minislider:after {
@@ -225,32 +225,32 @@ a:hover {
   font-size: 24px;
   padding-bottom: 60px;
 }
-.clients-section {
+.clients {
   padding-bottom: 110px;
 }
-.clients-section__images {
+.clients__images {
   display: inline-block;
   width: 100px;
   height: 100px;
   background: url(../images/clientLogos.png) no-repeat;
   margin-left: 30px;
 }
-.clients-section__images_motorcycle {
+.clients__images_motorcycle {
   background-position: 0 0;
 }
-.clients-section__images_rubick {
+.clients__images_rubick {
   background-position: -160px 0;
 }
-.clients-section__images_triangle {
+.clients__images_triangle {
   background-position: -336px 0;
 }
-.clients-section__images_br {
+.clients__images_br {
   background-position: -498px 0;
 }
-.clients-section__images_quotes {
+.clients__images_quotes {
   background-position: -650px 0;
 }
-.clients-section__images_tweet {
+.clients__images_tweet {
   background-position: -822px 0;
 }
 .feature-article {
