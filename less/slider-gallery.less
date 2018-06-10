@@ -1,0 +1,28 @@
+.slider-gallery {
+    font-size: 0;
+    margin-left: 10%;
+    @media (max-width: 1700px) {
+        margin-left: 0;
+        margin: auto;
+    }
+}
+
+.slider-gallery__image {
+    display: inline-block;
+    @media (max-width: 1700px) {
+        margin-left: 0;
+        width: 55%;
+        display: block;
+        margin: auto;
+    }
+    @media (max-width: @screen-m-min) {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+    &_cutted {
+        @media (max-width: 1700px) {
+            display: none;
+        }
+    }
+}
